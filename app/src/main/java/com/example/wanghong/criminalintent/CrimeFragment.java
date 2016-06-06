@@ -109,7 +109,7 @@ public class CrimeFragment extends Fragment {
                 timePickerFragment.show(fm, TIMEFRAGMENT);
             }
         });
-        timebutton.setText(mCrime.getTime().toString());
+        timebutton.setText(mCrime.getTime().toString()+mCrime.getTime());
         mCheckBox= (CheckBox) v.findViewById(R.id.checkid);
         mCheckBox.setChecked(mCrime.isMsloved());
         mCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
