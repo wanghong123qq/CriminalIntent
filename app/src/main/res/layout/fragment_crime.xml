@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.example.wanghong.criminalintent.CrimeFragment">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Crimetextid"
+    android:text="TITLE"
+    style="?android:attr/listSeparatorTextViewStyle"
+    />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="16dp"
+       android:id="@+id/Edtextid"
+       android:hint="Enter Something"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        style="?android:attr/listSeparatorTextViewStyle"/>
+    <Button
+        android:id="@+id/datebuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    <Button
+        android:id="@+id/timebuttonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkid"
+        android:text="Solved"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/Contactid"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/sendCrimeid"/>
+
+
+</LinearLayout>

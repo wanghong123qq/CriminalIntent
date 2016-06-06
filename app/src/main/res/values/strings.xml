@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="TiTle">Crimes</string>
+    <string name="AddMenuIte">New Crime</string>
+    <string name="DeleteCrime">Delete Crime</string>
+    <string name="addsubtitle">Show subtitle</string>
+    <string name="hidesubtitle">Hide subtitle</string>
+    <string name="subtitleformat">%1$s crimes</string>
+    <string name="GetContact">Get Contact!</string>
+    <string name="contact_apply">Contact Apply</string>
+    <string name="Send_Crime">Send Crime Report!</string>
+    <string name="Crime_report">%1$s! The Crime is discoverd on %2$s,%3$s,%4$s! </string>
+    <string name="Crime_suspect">the suspect is %s</string>
+    <string name="Crime_nosuspect">there is no suspect</string>
+    <string name="Crime_solved">the case is solved!</string>
+    <string name="Crime_nosolved">the case is nosolved!</string>
+
+
+
+
+
+</resources>
